@@ -10,7 +10,7 @@ html {
 
 .game-board {
     width: 100%;
-    height: 50rem;
+    height: 100vh;
     border-bottom: 5rem solid green;
     margin: 0 auto;
     position: relative;
@@ -19,7 +19,7 @@ html {
 }
 
 .mario {
-    width: 15rem;
+    width: 20rem;
     position: absolute;
     bottom: 0;
 }
@@ -32,7 +32,7 @@ html {
 .pipe {
     position: absolute;
     bottom: 0;
-    width: 8rem;
+    width: 13rem;
     right: -8rem;
     animation: pipe-animation 1.5s infinite linear;
 } 
@@ -42,12 +42,6 @@ html {
     position: absolute;
     animation: cloud-animation 25s infinite linear;
 }
-
-.ground {
-    width: 100%;
-
-}
-
 
 
 @keyframes pipe-animation {
