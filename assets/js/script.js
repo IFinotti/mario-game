@@ -24,7 +24,7 @@ const loop = setInterval(() => {
         mario.style.bottom = `${marioPosition}px`;
 
         mario.src = 'assets/img/game-over.png';
-        mario.style.width = '7.5rem'
+        mario.style.width = '10rem'
         mario.style.marginLeft = '5rem'
 
         clearInterval(loop);
@@ -34,5 +34,3 @@ const loop = setInterval(() => {
 
 document.addEventListener('keydown', jump);
 document.addEventListener('touchstart', jump);
-
-
